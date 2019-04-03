@@ -12,6 +12,10 @@ func SlicesDemo() {
 	var str_slice []string
 	fmt.Println("unbound slice is", str_slice, "is nil?", str_slice == nil)
 
+	// для слайсов на функции короткое присваивание не работает только var
+	var func_slice []func()
+	func_slice = append(func_slice, nil)
+
 	// но если с пустым литералом то уже срез не будет равен nill
 	str_empty := []string{} // его len и cap будут равно 0
 	fmt.Println("bound to empty", str_empty, "is nil?", str_empty == nil)

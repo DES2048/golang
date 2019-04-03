@@ -29,9 +29,13 @@ func demoCoreLearn() {
 
 	//core.SlicesDemo()
 	//core.SliceAppendDemo()
-	core.SlicePassToFuncDemo()
+	//core.SlicePassToFuncDemo()
 	//core.PointersDemo()
 	//core.DemoNamedTypes()
+
+	//core.DemoFunctions()
+	//core.DemoClosures()
+	core.DemoVariableFunc()
 
 	//core.HideF()
 	//core.DemoHidingInBlock()
