@@ -19,7 +19,7 @@ type Employee struct {
 }
 
 type Point2d struct {
-	X, Y int
+	X, Y float64
 }
 
 func DemoStruct() {
